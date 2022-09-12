@@ -1,38 +1,34 @@
-public class Main {
-    public static void main(String[] args) {
         // Задача 1
 int clientOs = 1;
 int iOS = 0;
 int android = 1;
 if (clientOs == iOS){
 System.out.println("Установите версию приложения iOS");
-}else
+}else {
 System.out.println("Установите версию приложения Android");
+    
+}
 
 // Задача 2
 
 int clientDeviceYear = 2015;
-int aNdroid = 1;
 int iOs = 0;
-int clientOS = 1;
-if (clientOS<clientDeviceYear && clientOS == android){
+if (clientOs<clientDeviceYear && clientOs == android){
 System.out.println("Установите облегченную версию приложения Android");
 } else{
 System.out.println("Установите  версию приложения Android");
-}  if (clientOS<clientDeviceYear && clientOS == iOs){
+}  if (clientOs<clientDeviceYear && clientOs == iOs){
 System.out.println("Установите облегченную версию приложения iOs");
-} else
+} else {
 System.out.println("Установите версию приложения iOs");
+}
 //Задача3
 int year = 2021;
-if (year %100==0 && year %400 ==0 )
-System.out.println(year+"является высокосным");
-else if (year % 4 == 0 && year % 100 > 0)
-System.out.println(year+"является высокосным");
-else if (year % 100 == 0)
-System.out.println(year+"не является высокосным");
-else
-System.out.println(year+"не является высокосным");
+if (year % 4 == 0 && year % 100 != 0 ||year % 400 == 0){
+			System.out.println(year + "Год высокосный!");
+		}else{
+			System.out.println(year + "Год не высокосный!");
+		}
 
 // Задача4
 int deliveryDistance = 95;
@@ -43,8 +39,9 @@ System.out.println("Потребуется дней: " + deliveryDay);
 System.out.println("Потребуется дней: " + deliveryDay*2);
 }else if (deliveryDistance>60 && deliveryDistance <=100){
 System.out.println("Потребуется дней: " + deliveryDay*3);
-}else
+}else{
 System.out.println("Потребуется дней больше 3 " );
+}
 
 // Задача5
 int monthNumber = 10;
@@ -65,6 +62,4 @@ case 9:
 case 10:
 case 11:
 System.out.println("Осень");
-}
-    }
 }
