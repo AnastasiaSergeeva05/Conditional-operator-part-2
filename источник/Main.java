@@ -1,4 +1,4 @@
-        // Задача 1
+// Задача 1
 int clientOs = 1;
 int iOS = 0;
 int android = 1;
@@ -12,16 +12,17 @@ System.out.println("Установите версию приложения Andro
 // Задача 2
 
 int clientDeviceYear = 2015;
-int iOs = 0;
-if (clientOs<clientDeviceYear && clientOs == android){
-System.out.println("Установите облегченную версию приложения Android");
-} else{
-System.out.println("Установите  версию приложения Android");
-}  if (clientOs<clientDeviceYear && clientOs == iOs){
-System.out.println("Установите облегченную версию приложения iOs");
-} else {
-System.out.println("Установите версию приложения iOs");
-}
+    int clientDeviceYear1 = 2014;
+        int iOs = 0;
+        if (clientDeviceYear1<clientDeviceYear && clientOs == android){
+        System.out.println("Установите облегченную версию приложения Android");
+    } else{ 
+        System.out.println("Установите  версию приложения Android");
+    }  if (clientDeviceYear1<clientDeviceYear && clientOs == iOs){
+        System.out.println("Установите облегченную версию приложения iOs");
+        } else{
+        System.out.println("Установите версию приложения iOs");
+        }
 //Задача3
 int year = 2021;
 if (year % 4 == 0 && year % 100 != 0 ||year % 400 == 0){
