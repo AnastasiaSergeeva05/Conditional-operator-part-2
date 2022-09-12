@@ -1,4 +1,16 @@
-// Задача 1
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+
+        // Задача 1
 int clientOs = 1;
 int iOS = 0;
 int android = 1;
@@ -13,12 +25,11 @@ System.out.println("Установите версию приложения Andro
 
 int clientDeviceYear = 2015;
     int clientDeviceYear1 = 2014;
-        int iOs = 0;
-        if (clientDeviceYear1<clientDeviceYear && clientOs == android){
+              if (clientDeviceYear1<clientDeviceYear && clientOs == android){
         System.out.println("Установите облегченную версию приложения Android");
     } else{ 
         System.out.println("Установите  версию приложения Android");
-    }  if (clientDeviceYear1<clientDeviceYear && clientOs == iOs){
+    }  if (clientDeviceYear1<clientDeviceYear && clientOs == iOS){
         System.out.println("Установите облегченную версию приложения iOs");
         } else{
         System.out.println("Установите версию приложения iOs");
@@ -63,4 +74,6 @@ case 9:
 case 10:
 case 11:
 System.out.println("Осень");
+}
+    }
 }
